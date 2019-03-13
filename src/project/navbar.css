@@ -1,0 +1,18 @@
+.logo{
+    width: 28%;
+    margin-left: -32%;
+}
+.nav{
+    margin-right: 14%;
+
+}
+.nav1{
+    margin-left: -55%;
+}
+.aaa::first-line{
+    color: #00b39b;
+}
+.navv{
+    color: #747474 !important;
+
+}

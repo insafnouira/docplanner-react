@@ -1,0 +1,16 @@
+.para{
+
+    text-align: center;
+    width: 45% !important;
+    margin-left: 30% !important;
+    margin-top: 72px !important;
+}
+.para p{
+    width: 81%;
+    margin-left: 9%;
+    margin-top: 31px;
+    color: #747474;
+}
+.para h1{
+    color: #00b39b;
+}

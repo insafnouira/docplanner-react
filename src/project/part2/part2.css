@@ -1,0 +1,79 @@
+.carte{
+    border-radius: 23px;
+    text-align: justify !important;
+    margin-left: 11%;
+    overflow: hidden;
+    width: 12%;
+    color: white;
+    padding-top: 12px;
+    margin-top: 58px;
+    
+}
+.flex{
+    display: flex;
+}
+.label1{
+    color: rgb(221, 217, 217);
+}
+.image1{
+    width: 73%;
+    margin-left: 41%;
+}
+.option{
+    margin-top: 12px;
+    
+    width: 36%;
+}
+@media only screen  and (max-width: 568px){
+    .carte{
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+}
+
+
+
+
+
+.anim1 {visibility:hidden;}
+.anim1 {
+   
+    animation-name: animation;
+    animation-duration: 1s; 
+    visibility: visible; 
+}
+
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+
+
+.anim2 {visibility:hidden;}
+.anim2 {
+    
+    animation-name: animation2;
+    animation-duration: 1s; 
+    visibility: visible; 
+}
+
+
+@keyframes animation2 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    } 
+}
+
+

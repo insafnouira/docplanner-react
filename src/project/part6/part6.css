@@ -1,0 +1,23 @@
+.liste11{
+    margin-left: 3%;
+    margin-top: 84px !important;
+    
+}
+.lien{
+    margin-top: 8%;
+    width: 78%;
+    margin-left: 7% !important;
+}
+.label{
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 1%;
+    background-color: #3d83df;
+    font-size:80%;
+    text-align: center;
+    color:white;
+} 
+.text-label{
+    color: #a7a5a5;
+    font-weight: bold !important;
+}

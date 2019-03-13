@@ -1,0 +1,48 @@
+.list{
+    display: flex;
+}
+.listtt{
+    margin-top: 86px;
+}
+.t1 p{
+    margin-left: 43%;
+    color: #00b39b;
+    font-size: 22px !important;
+}
+.t2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.log{
+    width: 17%;
+    height: 21px;
+
+}
+.link{
+    font-size: 19px !important;
+    color: #c9c6c6;
+    
+}
+.t2 a{
+    text-decoration: none;
+}
+.link:hover{
+    color: #00b39b;
+    
+}
+@media only screen and (max-width: 576px){
+    .t1 p{
+        margin-left: 7%;
+        
+    }
+    .t2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 34px;
+        margin-left: 35%;
+    }
+    .log {
+        width: 7%;
+    }
+}
